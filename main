@@ -53,12 +53,4 @@ void loop() {
     Serial.print(aceleracion);
     Serial.println(" m/s^2");
 
-    // Esperar hasta que el objeto pase completamente por la primera fotoresistencia
-    while (analogRead(fotoresistenciaPin1) < umbral1) {
-      // Esperar
-      
-    }
-  }
-
-   // Ajusta el retardo según sea necesario
 }
